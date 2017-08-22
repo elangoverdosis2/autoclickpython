@@ -28,7 +28,7 @@ useragent = ['Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.10 sun4u; X11)',
 		'Mozilla/4.0 (compatible; MSIE 5.0; Windows ME) Opera 5.11 [en]']
 
 referer	= ['http://google.com','http://bing.com','http://facebook.com','http://twitter.com','http://www.yahoo.com']
-link_invation= 'http://adf.ly/unZg3'
+link_invation= 'http://youtu.be/IDNhBrZGNl0?t=4s&autoplay=1'
 
 def Autoclicker(proxy1):
     try:
@@ -42,7 +42,7 @@ def Autoclicker(proxy1):
 	f = urllib2.urlopen(link_invation)
 
 
-	if "adf.ly" in f.read():
+	if "youtu.be" in f.read():
 
 
 	   print "[*] Link invation was clicked..."
